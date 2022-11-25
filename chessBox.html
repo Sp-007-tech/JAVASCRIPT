@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Box ! </title>
+    <style>
+        table,tr,td{
+            border:2px solid rgb(155, 59, 104);
+            border-collapse: collapse;
+            width:700px;
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+
+        document.write("<table>");
+            for(i=1;i<=8;i++){
+                document.write("<tr>");
+                    if(i%2==0){
+                        for(j=1;j<=8;j++){
+                            if(j%2==0){
+                                document.write("<td style-'background:black'</td>");
+                            }
+                            else{
+                                document.write("<td style='background:white'></td>");
+                            }
+                        }
+                    }
+                    else{
+                        for(j=1;j<=8;j++){
+                            if(j%2==0){
+                                document.write("<td style='background:white'></td>");
+                            }
+                            else{
+                                document.write("<td style='background:black'></td>");
+                            }
+                        }
+                    }
+                    document.write("</tr>");
+            }
+
+            document.write("</table>");
+
+    </script>
+</body>
+</html>
