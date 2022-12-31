@@ -31,9 +31,11 @@ var time = d.getHours()
 if (time<10){
     console.log("Good morning ");
 }
+
 else if(time>=10 && time<16){
     console.log("Good day ");
 }
+
 else{
     console.log("Hello world ")
 }
