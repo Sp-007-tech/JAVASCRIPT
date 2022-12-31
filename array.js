@@ -1,8 +1,5 @@
-/*(1)Arrays are the some collection of items ....means that we can add some Boolean,some number ,we can add we can access them from their index ..
+/*(1)Arrays are the some collection of items ....means that we can add some Boolean,some number ,we can also add and access them from their index....
 (2)Arrays are mutable....*/
-
-
-
 
 let marks= [81,29,53,49,75,79,null,Boolean]
 console.log(marks)
@@ -26,9 +23,3 @@ for(let i in marks){
 console.log(marks)
 
 }
-
-
-
-
-
-
