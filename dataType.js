@@ -5,6 +5,7 @@ let y = "HEy" + 69;
 console.log(y)
 console.log(x);
 
+
 //(1) JS evaluate exp. from left to right. (2)Different sequece can produce different result..
 const z = 100 - 31 + "GOT it !";
 console.log(z)
@@ -13,10 +14,7 @@ const o = "What" + 6 + 9;
 console.log(o);
 
 
-
-
 // JS has dynamic type,means that the same variable can be used to hold diffe.data type.
-
 let a;// it results as Udefined
 console.log(a)
 a = 10; // it results as number
@@ -25,16 +23,14 @@ a = "Hey "// it result as string.
 console.log(a)
 
 
-
-
 // Js has only one type of number.Number can be written with,or without decimal
-
 let n =69;
 console.log(n)
 n= 69.00//after decimal it has 00, so the output will be only 69.
 console.log(n)
 n = 69.01//after decimal it has 01, so the output will be 69.01  
 console.log(n)
+
 
 // Exponential(e)
 let n1 = 456e5; //e5 means 5times zero after no.
@@ -44,7 +40,6 @@ console.log(n1) // e-5 means four time zero
 
 
 // BOOLEAN DT..
-
 var x1 = 5;
 var x2 = 5;
 var x2 = 16
