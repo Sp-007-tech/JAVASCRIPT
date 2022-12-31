@@ -3,7 +3,6 @@ let num1 = [1,2,3,4,5,6]
 let b= num1.toString()
 console.log (b, typeof b)
 
-
 //let c= num.join("_")
 //(1)join method.... we can use any no. or character in the place of "_"
 let c = num.join(" and ")
@@ -25,12 +24,9 @@ console.log (s,num)
 let m= num.unshift(0)
 console.log(a,num)
 
-
 //(6)delete()
 let num= [1,2,3,4,5,6,7,8,9]
 console.log(num)
-
-
 
 //delet.....ask in interview ..if we can delete some item in array,the length of array can't be changed ..the length should remain constant 
 
@@ -39,8 +35,6 @@ delete num[1]
 delete num[2]
 console.log (num0)
 console.log (num0.length)
-
-
 
 //concat....(1)using concat method we can combine two Arrays and create new array and (2)it won't change existing array..or it will return new Arrays (3)  we can also concat more than one array 
 let num5= [1,2,3,4,5]
