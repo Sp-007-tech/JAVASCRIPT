@@ -1,29 +1,30 @@
-// Function is a block of code designed to perform particular task.===(1)we can reuse the code means define the code once , and use it many times with diff. arguments to produce diff. result
-
+// Function is a block of code designed to perform particular task.
+// (1) we can reuse the code means define the code once, and use it many times with different arguments to produce different result.
 
 function multi(a,b){
     return a*b 
-}
+    }
+
 let L = multi(4,5)
 console.log("Multiplication is ",L)
 
 
 
-
 // farenheit to celsius
+
 function toCelsius(farenheit){
     return (5/9) * (farenheit-32);
-}
+    }
+
 let l = toCelsius(77)
 console.log(l) //result=25
-
 l = toCelsius
 console.log(l) //result=[Function: toCelsius]
 
-// above example, "toCelsius" refer to the function obj. and "toCelsius()" refer to the function result.
+// above example, "toCelsius" refer to the function object and "toCelsius()" refer to the function result.
 
 
-// func used as variable value =====(1) Instead of using a variable to store the return value of a function, we can use the function directly , as a variable
+// func used as variable value ===(1) Instead of using a variable to store the return value of a function, we can use the function directly , as a variable
 
 let text = " The temperature is " + toCelsius(88) + " celcius "
 console.log(text)
