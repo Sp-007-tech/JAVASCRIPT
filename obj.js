@@ -1,3 +1,4 @@
+
 // (1) obj are variable too but obj can contain many values.(2) The name:value paires in JS obj are called as properties. (3) in ex.,"type" is property and "fiat" is property value.(4)obj call syntax "objectName.propertyName"
 
 const car = {
