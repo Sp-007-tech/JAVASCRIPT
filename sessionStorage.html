@@ -1,14 +1,20 @@
+
 <!-- Web Storage – sessionStorage
- It stores data for one session and deletes it after closing the 
-browser window 
- Similar to localStorage but it stores the data only for one session
- i.e. the data remains until the user closes that window or 
-tab. -->
+
+ It stores data for one session and deletes it after closing the browser window.
+
+ Similar to localStorage but it stores the data only for one session.
+
+ i.e. the data remains until the user closes that window or tab. -->
+
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    
+    <title> Session Storage ! </title>
+    
     <script>
         function clickCounter() {
             if (typeof(Storage) !== "undefined"){
@@ -21,12 +27,14 @@ tab. -->
             }
         }
     </script>
+    
 </head>
 <body>
+    
     <p><button onclick="clickCounter()" type="button">Click Here !</button></p>
     <div id="result"></div>
     <p>Click the button to see the counter increase.</p>
     <p>Close the browser tab, and try again,and the counter is reset.</p>
+    
 </body>
-
 </html>
