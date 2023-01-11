@@ -1,6 +1,7 @@
+
 let mn= "Levi"
-console.log (mn . length)//for length of string
-console.log (mn[0])//for the character of string 
+console.log (mn.length) //it gives length of string.
+console.log (mn[0]) //it gives character of string at that index.
 
 let nm =  'Tsunade'
 console.log (nm)
