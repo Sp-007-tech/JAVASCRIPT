@@ -1,3 +1,4 @@
+
 // for loop
 
 // var i = 0;
@@ -11,6 +12,7 @@
 // }
 
 
+
 // while loop
 
 // var a=0;
@@ -19,6 +21,8 @@
 //     console.log("The number is ",a)
 //     a++
 // }
+
+
 
 // do-while
 
