@@ -1,8 +1,5 @@
 //String are immutable ....every method return a new string but the original string can't be changed.. 
 
-
-
-
 let nm = "shailesh"
 /*console.log (nm.length)
 console.log (nm.toUpperCase())
@@ -12,7 +9,6 @@ console.log (nm.replace("shailesh","Elon"))*/
 
 let frnd = "Naman"
 console.log (nm.concat(" is a friend of ", frnd , " Ok "))
-
 
 
 //using for loop we can print string
