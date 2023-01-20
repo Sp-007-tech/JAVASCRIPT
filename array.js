@@ -18,7 +18,7 @@ console.log("the length is ",marks.length)
 console.log(typeof marks)*
 
 
-//quiz
+// Quiz...
 for(let i in marks){
 console.log(marks)
 
