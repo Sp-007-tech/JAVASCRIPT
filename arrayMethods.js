@@ -48,8 +48,9 @@ let num2=[555,22,3,14,6,5,8,8,229]
 num2.sort()
 console.log (num2)
 
+
 //reverse (...can modify existing array)
-//splice ()......(1)splice can bd used to add new items to an Array (2) in below example 2 is the position to be add and 3 is the no.of element to remove and 1111 is the element to be added in array
+//splice ()......(1)splice can bd used to add new items to an Array (2) in below example 2 is the position to be add and 3 is the no.of element to remove and 1111 is the element to be added in array..
 let numb= [12,55,67,34,97,90,34]
 numb.splice(2,2,111,222,333,444,555,666)
 console.log (numb)
@@ -72,6 +73,7 @@ for (let i = 0; i < num.length; i++) {
 num.forEach((element)=>{
   console.log(element + element)
 })
+
 
 //Array.from
 let nm= "Levi"
